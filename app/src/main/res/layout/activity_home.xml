@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HomeActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/issueList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D3D3"
+        tools:listitem="@layout/issue" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/no_issues"
+        android:visibility="gone"
+        android:text="No Issues Logged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addIssue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/plus"
+        app:layout_anchor="@id/issueList"
+        app:layout_anchorGravity="bottom|right|end"
+        app:fabSize="normal"
+        android:layout_gravity="bottom|end"
+        app:layout_behavior="dita.dev.cira.view.widget.ScrollAwareFABBehavior"
+        app:useCompatPadding="true" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

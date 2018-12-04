@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "60315541241",
+    "firebase_url": "https://cira-e7d05.firebaseio.com",
+    "project_id": "cira-e7d05",
+    "storage_bucket": "cira-e7d05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60315541241:android:138271a4dfa833e8",
+        "android_client_info": {
+          "package_name": "dita.dev.cira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60315541241-p3dmiendd03f8l0k4c93ekgte77bgp2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dita.dev.cira",
+            "certificate_hash": "5952e7b874278afb662ec9e8f01eb6a3c3fda9d5"
+          }
+        },
+        {
+          "client_id": "60315541241-6bit10serglk3ulqio1j2tedu1rsjm03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz8VFcqU8EFTQq_jVR13mz44CEM4G29F8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60315541241-6bit10serglk3ulqio1j2tedu1rsjm03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
